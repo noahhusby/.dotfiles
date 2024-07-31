@@ -9,3 +9,5 @@ ln -sF $PWD/.gitconfig ~/.gitconfig
 ln -sF $PWD/.fleet/settings.json ~/.fleet/settings.json
 
 # duti -s com.jetbrains.fleet public.json all
+# duti -s com.jetbrains.fleet sh all
+# duti -s com.jetbrains.fleet py all
