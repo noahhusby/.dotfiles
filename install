@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+PWD=`pwd`
+
+# Manual for now ...
+ln -sF $PWD/Brewfile ~/Brewfile
+ln -sF $PWD/.zshrc ~/.zshrc
+ln -sF $PWD/.gitconfig ~/.gitconfig
+ln -sF $PWD/.fleet/settings.json ~/.fleet/settings.json
+
+# duti -s com.jetbrains.fleet public.json all
