@@ -108,6 +108,9 @@ alias ls='eza --icons --group-directories-first'
 alias ll='eza -l --icons --no-user --group-directories-first  --time-style long-iso'
 alias la='eza -la --icons --no-user --group-directories-first  --time-style long-iso'
 
+# Easy Aliases
+alias prj='cd ~/Documents/Projects'
+
 export STM32CubeMX_PATH=/Applications/STMicroelectronics/STM32CubeMX.app/Contents/Resources
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
